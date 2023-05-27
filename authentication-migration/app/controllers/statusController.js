@@ -178,7 +178,7 @@ module.exports = {
         return status
           .destroy()
           .then(() => res.status(204).send({
-            status_response: 'No Content',
+            status_response: 'Delete status success!',
             errors: null,
           }))
           .catch((error) => {
